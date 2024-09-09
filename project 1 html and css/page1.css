@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.user-options {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.user-options a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+.imagbox{
+    width:100%;
+    height:80vh;
+    border:1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+    
+    
+    
+}
+.imagbox1{
+    width:40vw;
+    height:75vh;
+    border:1px solid black;
+    margin: 10px;
+    background-image: url(category-1.jpg);
+    background-size: cover;
+    background-position: -120px;
+}
+.imagbox1img{
+    position: relative;
+    top:150px;
+    width: 25vw;
+    /* left:30px; */
+}
+.p1{
+    position: relative;
+    top:150px;
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif
+}
+.imagbox1 h2{
+    
+    position: relative;
+    top:160px;
+    width: 25vw;
+    font-size:xx-large;
+    color: red;
+    left:30px;
+}
+
+.imagbox2{
+    width:25vw;
+    height:35vh;
+    border:1px solid black;
+    margin: 10px;
+    background-image: url(category-2.jpg);
+    background-size: cover;
+
+}
+.imagbox2img{
+    position: relative;
+    top:80px;
+    width: 12vw;
+}
+.imagbox2 h3{
+    position: relative;
+    top:100px;
+    left:-130px;
+    color: red;
+}
+.imagbox3{
+    width:25vw;
+    height:35vh;
+    border:1px solid black;
+    margin: 10px;
+    background-image: url(category-3.jpg);
+    background-size: cover;
+    
+
+}
+.imagbox4{
+    width:25vw;
+    height:35vh;
+    border:1px solid black;
+    position:relative;
+    bottom:39vh;
+    left:42vw;
+    margin: 10px;
+    background-image: url(category-4.jpg);
+    background-size: cover;
+
+}
+.imagbox5{
+    width:25vw;
+    height:35vh;
+    border:1px solid black;
+    position: relative;
+    bottom:39vh;
+    left:42vw;
+    margin: 10px;
+    background-image: url(category-5.jpg);
+    background-size: cover;
+    
+}
+.navbar1{
+    height:10vh;
+    width:100%;
+    padding: 10px;
+    display: flex;
+    display:inline-block;
+    align-items: center; 
+    background-color:white;
+    border:1px solid black; 
+   
+    
+   
+    
+}
+
+.list ul{
+display: flex;
+justify-content: center; 
+align-items: center;
+color:black;
+position: relative;
+right:50px;
+bottom: 45px;
+} 
+.list ul li{
+    margin: 20px;
+    list-style: none;
+    color:black;
+    text-decoration: none;
+    
+}
+.product{
+    width:100%;
+    height:180vh;
+    border:1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+#box1, #box2,#box3, #box4, #box5,#box6,#box7,#box8{
+    border: 1px solid black;
+    height: 415px;
+    width: 275px;
+    margin:50px;
+    text-align: center;
+    
+}
+.banner{
+    width:100%;
+    height: 70vh;
+    border: 1px solid black;
+    /* background-image: url("banner-1.jpg");
+    background-size: cover;
+    background-position:-120px; */
+    
+}
+.bammerimg{
+    width:98.9vw;
+    height: 69.9vh;
+}
+.bammerimg1{
+    position: relative;
+    bottom: 300px;
+    left:500px;
+}
+.banner h2{
+    position: relative;
+    bottom: 300px;
+    left:700px;
+    color:red;
+}
+.banner h1{
+    position: relative;
+    bottom: 500px;
+    left:600px;
+    color:red;
+}
+.product1{
+    width:100%;
+    height:120vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border:1px solid black;
+        
+    }
+.h1{
+    display: flex;
+    display:inline-block;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+    #boxx1, #boxx2,#boxx3, #boxx4, #boxx5,#boxx6,#boxx7,#boxx8,#boxx9{
+        border: 1px solid black;
+        height: 20.4vh;
+        width: 50vh;
+        margin: 30px;
+        
+}
+.img1{
+    width:10vw;
+    height:20vh;
+}
+.h3{
+    text-align: center;
+    position: relative;
+    left:60px;
+    bottom:130px;
+    
+}
+.h4{
+    text-align: center;
+    position: relative;
+    left:60px;
+    bottom:100px;
+}
+.banner1{
+    width:70vw;
+    height:60vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left:150px;
+}
+.banner-img{
+    width:35vw;
+    height:60vh;
+    position: relative;
+}
+.banner-img1{
+    width:35vw;
+    height:60vh;
+
+
+}
+
+
